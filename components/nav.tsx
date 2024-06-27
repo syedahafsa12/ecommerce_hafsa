@@ -21,7 +21,7 @@ const Nav = () => {
           {/* <SignInButton /> */}
           {/* <SignInButton mode="modal" className=" text-white font-semibold py-2 px-4 rounded"> */}
           <SignInButton mode="modal">
-            <span className="text-white font-semibold py-2 px-4 rounded">
+            <span className="text-white font-semibold py-2 px-4 rounded cursor-pointer">
               Sign In
             </span>
           </SignInButton>

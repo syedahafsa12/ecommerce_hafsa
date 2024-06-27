@@ -22,7 +22,7 @@ const Nav2 = () => {
         <SignedOut>
           {/* <SignInButton /> */}
           <SignInButton mode="modal">
-            <span className="text-black font-semibold py-2 px-4 rounded">
+            <span className="text-black font-semibold py-2 px-4 rounded cursor-pointer">
               Sign In
             </span>
           </SignInButton>
