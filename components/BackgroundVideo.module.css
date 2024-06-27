@@ -1,0 +1,50 @@
+
+.videoContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.linksContainer {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 1;
+  padding: 20px; 
+}
+
+
+ 
